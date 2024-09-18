@@ -1,0 +1,29 @@
+.stats-card{
+    width: 350px;
+    height: 190px;
+    padding: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #E0E0E0;
+}
+.text-stats .text{
+    color: #161E54;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.text-stats .text-value{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media (max-width: 390px){
+    .stats-card{
+        margin-left: 200px;
+    }
+}

@@ -1,0 +1,35 @@
+.announcement-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    padding: 12px 16px;
+    border-radius: 5px;
+}
+.announcement-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.announcement-text p{
+    color: #000;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.announcement-text span{
+    font-size: 12px;
+}
+.announcement-icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 390px){
+    .announcement-item{
+        width: 100%;
+    }
+}

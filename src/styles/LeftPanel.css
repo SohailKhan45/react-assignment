@@ -1,0 +1,42 @@
+.left-panel{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.job-details{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.stats-details{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.announcement-container{
+    width: 100%;
+    padding: 0 10px ;
+}
+
+
+@media (min-width: 391px) and (max-width: 834px) {
+    .left-panel{
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px){
+    .job-details{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .stats-details{
+        flex-direction: column;
+    }
+    .announcement-container{
+        display: flex;
+        align-items: flex-start;
+        width: 100vw !important;
+    }
+}

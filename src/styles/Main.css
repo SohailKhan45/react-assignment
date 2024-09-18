@@ -1,0 +1,34 @@
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+.statistics{
+    display: flex;
+    gap: 20px;
+}
+@media (min-width: 391px) and (max-width: 834px) {
+    .main-container{
+        margin-left: -50px;
+    }
+    .statistics{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 390px){
+    .main-container{
+        margin-left: 0;
+    }
+    .statistics{
+        flex-direction: column;
+        align-items: start;
+        width: 100vw !important;
+    }
+    .dashboard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 0 0 20px;
+    }
+}
