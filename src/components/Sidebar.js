@@ -23,7 +23,7 @@ const Sidebar = () => {
     <div className='sidebar'>
         <div className="logo-container">
         {
-            isTabView ? <img src={JustLogo} /> : <img src={Logo} alt="Logo" />
+            isTabView ? <img src={JustLogo} alt='' /> : <img src={Logo} alt="Logo" />
         }
         </div>      
         <div className="main-menu-container">

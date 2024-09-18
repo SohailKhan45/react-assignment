@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="input-container">
-            {isTabView ? <img style={{cursor: "pointer"}} src={Menu} /> : ""}
+            {isTabView ? <img style={{cursor: "pointer"}} alt='' src={Menu} /> : ""}
             <input type="text" placeholder='Search' />
             <span className="search-icon-container">
                 <img src={Search} alt="" />
